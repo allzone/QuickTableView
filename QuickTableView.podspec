@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/lionheart/QuickTableView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
-  s.platform     = :ios, '10.3'
+  s.platform     = :ios, '10.0'
   s.swift_version = '4.2'
   s.requires_arc = true
 
