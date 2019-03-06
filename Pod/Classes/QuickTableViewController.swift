@@ -16,7 +16,6 @@
 //
 
 import UIKit
-import KeyboardAdjuster
 
 public enum QuickTableViewRowBuilder {
     public typealias C = UITableViewCell

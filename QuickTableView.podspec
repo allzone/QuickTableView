@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*', 'Pod/Extensions/**/*', 'Pod/Protocols/**/*'
 
   s.frameworks = 'UIKit'
-  s.ios.dependency 'KeyboardAdjuster', '~> 4'
+#  s.ios.dependency 'KeyboardAdjuster', '~> 4'
 end

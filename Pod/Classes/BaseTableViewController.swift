@@ -15,7 +15,7 @@
 //
 //
 
-import KeyboardAdjuster
+//import KeyboardAdjuster
 import UIKit
 
 /**
@@ -71,7 +71,7 @@ open class BaseTableViewController: UIViewController, HasTableView {
         tableViewTopConstraint.isActive = true
         tableViewRightConstraint.isActive = true
         tableView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor).isActive = true
-        tableView.bottomAnchor.constraint(greaterThanOrEqualTo: keyboardLayoutGuide.topAnchor).isActive = true
+//        tableView.bottomAnchor.constraint(greaterThanOrEqualTo: keyboardLayoutGuide.topAnchor).isActive = true
     }
 
     // MARK: -
