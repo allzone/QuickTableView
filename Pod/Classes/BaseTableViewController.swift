@@ -70,8 +70,7 @@ open class BaseTableViewController: UIViewController, HasTableView {
         tableViewLeftConstraint.isActive = true
         tableViewTopConstraint.isActive = true
         tableViewRightConstraint.isActive = true
-        tableView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor).isActive = true
-//        tableView.bottomAnchor.constraint(greaterThanOrEqualTo: keyboardLayoutGuide.topAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
 
     // MARK: -
