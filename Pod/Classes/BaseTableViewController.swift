@@ -65,12 +65,14 @@ open class BaseTableViewController: UIViewController, HasTableView {
 
         tableViewLeftConstraint = tableView.leftAnchor.constraint(equalTo: view.leftAnchor)
         tableViewRightConstraint = tableView.rightAnchor.constraint(equalTo: view.rightAnchor)
-        tableViewTopConstraint = tableView.topAnchor.constraint(equalTo: view.topAnchor)
 
         tableViewLeftConstraint.isActive = true
-        tableViewTopConstraint.isActive = true
         tableViewRightConstraint.isActive = true
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).constant = 0
+        
+        tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        tableView.topAnchor.constraint(equalTo: view.topAnchor).constant = 0
     }
 
     // MARK: -
